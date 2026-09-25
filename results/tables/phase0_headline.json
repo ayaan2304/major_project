@@ -1,0 +1,20 @@
+{
+  "headline": {
+    "n_rows": 6362620,
+    "n_fraud": 8213,
+    "n_legit": 6354407,
+    "fraud_rate": 0.001290820448180152,
+    "imbalance_ratio": 773.7010836478753,
+    "step_range": {
+      "min": 1,
+      "max": 743
+    },
+    "type_distribution": {
+      "PAYMENT": 2151495,
+      "CASH_OUT": 2237500,
+      "CASH_IN": 1399284,
+      "TRANSFER": 532909,
+      "DEBIT": 41432
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Pinned to the author's working Anaconda Python 3.12 environment.
+# Each package is annotated with why it is required for this project.
+
+pandas==2.2.2              # chunked CSV I/O, tabular transforms, reports
+numpy==1.26.4              # arrays, numerical formulas, distance/similarity
+scipy==1.13.1              # Mahalanobis, JS divergence, statistical helpers
+scikit-learn==1.5.1        # splits, metrics, MLP, LogReg, RF, DT, calibration
+imbalanced-learn==0.12.3   # SMOTE / Borderline-SMOTE / random oversampling
+xgboost==3.4.0             # gradient-boosted trees (ensemble + TreeSHAP)
+lightgbm==4.6.0            # fast GBDT provisional model and ensemble member
+catboost==1.2.7            # ordered-boosting ensemble member
+shap==0.45.1               # TreeSHAP prototypes, local/global explanations
+matplotlib==3.9.2          # publication-style figures
+seaborn==0.13.2            # statistical plots (imbalance, reliability)
+joblib==1.4.2              # model serialization and parallel helpers
+PyYAML==6.0.1              # configs/config.yaml as the single experiment driver
+statsmodels==0.14.2        # optional GLM diagnostics / effect-size helpers
+tqdm==4.66.5               # progress bars for chunked EDA and SHAP batches
+pyarrow==16.1.0            # parquet I/O for processed train/val/test splits

@@ -1,0 +1,12 @@
+{
+  "cap_meta": {
+    "keep_all_fraud": true,
+    "legit_cap": 200000,
+    "n_before": 6082007,
+    "n_after": 205781,
+    "applied": true,
+    "fraud_kept": 5781
+  },
+  "method": "borderline_smote",
+  "n_after_resample": 230000
+}

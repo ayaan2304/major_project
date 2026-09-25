@@ -1,0 +1,25 @@
+# Conda environment for EP-IAIL mobile-money fraud research (CPU-first).
+# GPU is optional and unused by default.
+name: ep-iail-fraud
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas=2.2.2          # tabular I/O
+  - numpy=1.26.4          # numerics
+  - scipy=1.13.1          # distances / divergences
+  - scikit-learn=1.5.1    # classical ML + metrics
+  - imbalanced-learn=0.12.3
+  - matplotlib=3.9.2
+  - seaborn=0.13.2
+  - joblib=1.4.2
+  - pyyaml=6.0.1
+  - statsmodels=0.14.2
+  - tqdm=4.66.5
+  - pip
+  - pip:
+      - xgboost==3.4.0
+      - lightgbm==4.6.0
+      - catboost==1.2.7
+      - shap==0.45.1

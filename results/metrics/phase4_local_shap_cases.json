@@ -1,0 +1,481 @@
+{
+  "TP": [
+    {
+      "subset_row": 198,
+      "y": 1,
+      "p": 0.9999967548083508,
+      "top": [
+        {
+          "feature": "orig_balance_error",
+          "shap": 0.14369866953865112,
+          "abs_shap": 0.14369866953865112
+        },
+        {
+          "feature": "dest_amount_to_oldbalance",
+          "shap": -0.0672249158761382,
+          "abs_shap": 0.0672249158761382
+        },
+        {
+          "feature": "newbalanceOrig",
+          "shap": 0.06714527306872368,
+          "abs_shap": 0.06714527306872368
+        },
+        {
+          "feature": "orig_amount_to_oldbalance",
+          "shap": 0.0337449113490186,
+          "abs_shap": 0.0337449113490186
+        },
+        {
+          "feature": "orig_drained",
+          "shap": 0.0276960289138822,
+          "abs_shap": 0.0276960289138822
+        },
+        {
+          "feature": "abnormal_orig_change",
+          "shap": 0.025664990711353464,
+          "abs_shap": 0.025664990711353464
+        },
+        {
+          "feature": "dest_refill_ratio",
+          "shap": -0.022677429890551028,
+          "abs_shap": 0.022677429890551028
+        },
+        {
+          "feature": "hour_of_day",
+          "shap": -0.018005421823997763,
+          "abs_shap": 0.018005421823997763
+        }
+      ]
+    },
+    {
+      "subset_row": 350,
+      "y": 1,
+      "p": 0.9999963706813239,
+      "top": [
+        {
+          "feature": "orig_balance_error",
+          "shap": 0.1681615220293845,
+          "abs_shap": 0.1681615220293845
+        },
+        {
+          "feature": "newbalanceOrig",
+          "shap": 0.07984653644023203,
+          "abs_shap": 0.07984653644023203
+        },
+        {
+          "feature": "orig_amount_to_oldbalance",
+          "shap": 0.037399405638616635,
+          "abs_shap": 0.037399405638616635
+        },
+        {
+          "feature": "orig_drained",
+          "shap": 0.030403996949189386,
+          "abs_shap": 0.030403996949189386
+        },
+        {
+          "feature": "abnormal_orig_change",
+          "shap": 0.02672064939019868,
+          "abs_shap": 0.02672064939019868
+        },
+        {
+          "feature": "type_CASH_OUT",
+          "shap": 0.025779987515497503,
+          "abs_shap": 0.025779987515497503
+        },
+        {
+          "feature": "log_amount",
+          "shap": 0.010064490244666642,
+          "abs_shap": 0.010064490244666642
+        },
+        {
+          "feature": "dest_refill_ratio",
+          "shap": -0.006180623134112435,
+          "abs_shap": 0.006180623134112435
+        }
+      ]
+    },
+    {
+      "subset_row": 33,
+      "y": 1,
+      "p": 0.9999967749090448,
+      "top": [
+        {
+          "feature": "orig_balance_error",
+          "shap": 0.12768857375085868,
+          "abs_shap": 0.12768857375085868
+        },
+        {
+          "feature": "hour_of_day",
+          "shap": -0.12598317518808416,
+          "abs_shap": 0.12598317518808416
+        },
+        {
+          "feature": "dest_amount_to_oldbalance",
+          "shap": -0.0983928079446563,
+          "abs_shap": 0.0983928079446563
+        },
+        {
+          "feature": "newbalanceOrig",
+          "shap": 0.058239432263560376,
+          "abs_shap": 0.058239432263560376
+        },
+        {
+          "feature": "type_TRANSFER",
+          "shap": 0.05433442434698981,
+          "abs_shap": 0.05433442434698981
+        },
+        {
+          "feature": "orig_amount_to_oldbalance",
+          "shap": 0.030561690393735717,
+          "abs_shap": 0.030561690393735717
+        },
+        {
+          "feature": "abnormal_orig_change",
+          "shap": 0.02503549614833227,
+          "abs_shap": 0.02503549614833227
+        },
+        {
+          "feature": "orig_drained",
+          "shap": 0.0248958258624833,
+          "abs_shap": 0.0248958258624833
+        }
+      ]
+    }
+  ],
+  "TN": [
+    {
+      "subset_row": 685,
+      "y": 0,
+      "p": 3.0292873665208354e-07,
+      "top": [
+        {
+          "feature": "orig_balance_error",
+          "shap": -0.039838115714503027,
+          "abs_shap": 0.039838115714503027
+        },
+        {
+          "feature": "orig_amount_to_oldbalance",
+          "shap": -0.00943435465136096,
+          "abs_shap": 0.00943435465136096
+        },
+        {
+          "feature": "abnormal_orig_change",
+          "shap": -0.007191073624639598,
+          "abs_shap": 0.007191073624639598
+        },
+        {
+          "feature": "dest_refill_ratio",
+          "shap": 0.005183313723380984,
+          "abs_shap": 0.005183313723380984
+        },
+        {
+          "feature": "dest_amount_to_oldbalance",
+          "shap": -0.0040831219801333715,
+          "abs_shap": 0.0040831219801333715
+        },
+        {
+          "feature": "dest_balance_error",
+          "shap": -0.003016039803796839,
+          "abs_shap": 0.003016039803796839
+        },
+        {
+          "feature": "type_TRANSFER",
+          "shap": -0.003015677717729332,
+          "abs_shap": 0.003015677717729332
+        },
+        {
+          "feature": "type_CASH_OUT",
+          "shap": 0.0010548347367166952,
+          "abs_shap": 0.0010548347367166952
+        }
+      ]
+    },
+    {
+      "subset_row": 439,
+      "y": 0,
+      "p": 4.422867759402656e-07,
+      "top": [
+        {
+          "feature": "newbalanceOrig",
+          "shap": -0.03638058630701866,
+          "abs_shap": 0.03638058630701866
+        },
+        {
+          "feature": "orig_drained",
+          "shap": -0.008969373546423257,
+          "abs_shap": 0.008969373546423257
+        },
+        {
+          "feature": "dest_amount_to_oldbalance",
+          "shap": -0.008780313797665317,
+          "abs_shap": 0.008780313797665317
+        },
+        {
+          "feature": "type_TRANSFER",
+          "shap": -0.003974610234032563,
+          "abs_shap": 0.003974610234032563
+        },
+        {
+          "feature": "oldbalanceDest",
+          "shap": -0.0020308504628280865,
+          "abs_shap": 0.0020308504628280865
+        },
+        {
+          "feature": "amount",
+          "shap": -0.0018982056052312046,
+          "abs_shap": 0.0018982056052312046
+        },
+        {
+          "feature": "log_amount",
+          "shap": 0.0015316225208164649,
+          "abs_shap": 0.0015316225208164649
+        },
+        {
+          "feature": "orig_amount_to_oldbalance",
+          "shap": -0.0014951190496236399,
+          "abs_shap": 0.0014951190496236399
+        }
+      ]
+    },
+    {
+      "subset_row": 611,
+      "y": 0,
+      "p": 2.805219391624053e-07,
+      "top": [
+        {
+          "feature": "newbalanceOrig",
+          "shap": -0.018688937602329182,
+          "abs_shap": 0.018688937602329182
+        },
+        {
+          "feature": "orig_balance_error",
+          "shap": -0.015250254194438826,
+          "abs_shap": 0.015250254194438826
+        },
+        {
+          "feature": "dest_amount_to_oldbalance",
+          "shap": -0.010200982066780367,
+          "abs_shap": 0.010200982066780367
+        },
+        {
+          "feature": "type_TRANSFER",
+          "shap": -0.005988022428616912,
+          "abs_shap": 0.005988022428616912
+        },
+        {
+          "feature": "orig_drained",
+          "shap": -0.0045313549103810115,
+          "abs_shap": 0.0045313549103810115
+        },
+        {
+          "feature": "abnormal_orig_change",
+          "shap": -0.0029270215323404197,
+          "abs_shap": 0.0029270215323404197
+        },
+        {
+          "feature": "oldbalanceDest",
+          "shap": -0.0026536118014814764,
+          "abs_shap": 0.0026536118014814764
+        },
+        {
+          "feature": "amount",
+          "shap": -0.001144640316720569,
+          "abs_shap": 0.001144640316720569
+        }
+      ]
+    }
+  ],
+  "FP": [],
+  "FN": [
+    {
+      "subset_row": 267,
+      "y": 1,
+      "p": 2.0017576479184953e-05,
+      "top": [
+        {
+          "feature": "newbalanceOrig",
+          "shap": -0.02092801704256047,
+          "abs_shap": 0.02092801704256047
+        },
+        {
+          "feature": "orig_balance_error",
+          "shap": -0.016782764029705976,
+          "abs_shap": 0.016782764029705976
+        },
+        {
+          "feature": "dest_amount_to_oldbalance",
+          "shap": -0.012128599924270383,
+          "abs_shap": 0.012128599924270383
+        },
+        {
+          "feature": "orig_drained",
+          "shap": -0.005335976545962284,
+          "abs_shap": 0.005335976545962284
+        },
+        {
+          "feature": "abnormal_orig_change",
+          "shap": -0.0035853050719284758,
+          "abs_shap": 0.0035853050719284758
+        },
+        {
+          "feature": "type_TRANSFER",
+          "shap": 0.002849038064183523,
+          "abs_shap": 0.002849038064183523
+        },
+        {
+          "feature": "amount",
+          "shap": -0.001702470641082206,
+          "abs_shap": 0.001702470641082206
+        },
+        {
+          "feature": "dest_refill_ratio",
+          "shap": 0.001531665285604108,
+          "abs_shap": 0.001531665285604108
+        }
+      ]
+    }
+  ],
+  "borderline": [
+    {
+      "subset_row": 333,
+      "y": 1,
+      "p": 0.9999496391375651,
+      "top": [
+        {
+          "feature": "amount",
+          "shap": 0.33634440716848224,
+          "abs_shap": 0.33634440716848224
+        },
+        {
+          "feature": "orig_balance_error",
+          "shap": 0.18492481178753764,
+          "abs_shap": 0.18492481178753764
+        },
+        {
+          "feature": "orig_amount_to_oldbalance",
+          "shap": 0.1082243377023479,
+          "abs_shap": 0.1082243377023479
+        },
+        {
+          "feature": "newbalanceOrig",
+          "shap": 0.08916888738702788,
+          "abs_shap": 0.08916888738702788
+        },
+        {
+          "feature": "type_CASH_OUT",
+          "shap": 0.03337455881085481,
+          "abs_shap": 0.03337455881085481
+        },
+        {
+          "feature": "log_amount",
+          "shap": 0.032139022756584326,
+          "abs_shap": 0.032139022756584326
+        },
+        {
+          "feature": "abnormal_orig_change",
+          "shap": 0.02955456574616404,
+          "abs_shap": 0.02955456574616404
+        },
+        {
+          "feature": "dest_amount_to_oldbalance",
+          "shap": 0.02455643482423012,
+          "abs_shap": 0.02455643482423012
+        }
+      ]
+    },
+    {
+      "subset_row": 29,
+      "y": 1,
+      "p": 0.9999621266233889,
+      "top": [
+        {
+          "feature": "dest_amount_to_oldbalance",
+          "shap": 0.39462998322331333,
+          "abs_shap": 0.39462998322331333
+        },
+        {
+          "feature": "dest_balance_error",
+          "shap": 0.16149854852278026,
+          "abs_shap": 0.16149854852278026
+        },
+        {
+          "feature": "type_TRANSFER",
+          "shap": 0.10443965785491943,
+          "abs_shap": 0.10443965785491943
+        },
+        {
+          "feature": "amount",
+          "shap": 0.05734033593232587,
+          "abs_shap": 0.05734033593232587
+        },
+        {
+          "feature": "oldbalanceDest",
+          "shap": 0.0276509522746175,
+          "abs_shap": 0.0276509522746175
+        },
+        {
+          "feature": "orig_amount_to_oldbalance",
+          "shap": 0.024303932324101357,
+          "abs_shap": 0.024303932324101357
+        },
+        {
+          "feature": "newbalanceOrig",
+          "shap": 0.017205781566558206,
+          "abs_shap": 0.017205781566558206
+        },
+        {
+          "feature": "log_amount",
+          "shap": 0.016255653790215503,
+          "abs_shap": 0.016255653790215503
+        }
+      ]
+    },
+    {
+      "subset_row": 267,
+      "y": 1,
+      "p": 2.0017576479184953e-05,
+      "top": [
+        {
+          "feature": "newbalanceOrig",
+          "shap": -0.02092801704256047,
+          "abs_shap": 0.02092801704256047
+        },
+        {
+          "feature": "orig_balance_error",
+          "shap": -0.016782764029705976,
+          "abs_shap": 0.016782764029705976
+        },
+        {
+          "feature": "dest_amount_to_oldbalance",
+          "shap": -0.012128599924270383,
+          "abs_shap": 0.012128599924270383
+        },
+        {
+          "feature": "orig_drained",
+          "shap": -0.005335976545962284,
+          "abs_shap": 0.005335976545962284
+        },
+        {
+          "feature": "abnormal_orig_change",
+          "shap": -0.0035853050719284758,
+          "abs_shap": 0.0035853050719284758
+        },
+        {
+          "feature": "type_TRANSFER",
+          "shap": 0.002849038064183523,
+          "abs_shap": 0.002849038064183523
+        },
+        {
+          "feature": "amount",
+          "shap": -0.001702470641082206,
+          "abs_shap": 0.001702470641082206
+        },
+        {
+          "feature": "dest_refill_ratio",
+          "shap": 0.001531665285604108,
+          "abs_shap": 0.001531665285604108
+        }
+      ]
+    }
+  ]
+}

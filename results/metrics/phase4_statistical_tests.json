@@ -1,0 +1,31 @@
+{
+  "ep_iail_pr_auc_ci": {
+    "mean": 0.9999975617854057,
+    "std": 3.1813291826672275e-06,
+    "ci_lo": 0.9999904008739295,
+    "ci_hi": 1.0
+  },
+  "smote_pr_auc_ci": {
+    "mean": 0.9999563947613354,
+    "std": 4.341599650562793e-05,
+    "ci_lo": 0.9998541078054817,
+    "ci_hi": 1.0
+  },
+  "delta_ep_minus_smote": {
+    "mean": 4.116702407046683e-05,
+    "ci_lo": -1.1102230246251565e-16,
+    "ci_hi": 0.00013946045690735312
+  },
+  "wilcoxon_stability_pr_auc_vs_dummy": "n/a \u2014 single test set; bootstrap used instead of Wilcoxon on seeds unless n_runs>=6",
+  "friedman_on_phase3_test_metrics": {
+    "statistic": 26.47058823529412,
+    "pvalue": 7.6010029491043775e-06
+  },
+  "friedman_methods_order": [
+    "none",
+    "class_weight",
+    "smote",
+    "ep_iail"
+  ],
+  "note": "Friedman blocks are bootstrap resamples of the frozen test set, not independent deployments."
+}

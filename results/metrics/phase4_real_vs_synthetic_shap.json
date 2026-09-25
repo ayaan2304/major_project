@@ -1,0 +1,4 @@
+{
+  "cosine_mean_shap_genuine_vs_fit_fraud_sample": 0.8917482219845376,
+  "note": "Fit-fraud sample mixes genuine train fraud and accepted synthetics because they share the EP-IAIL training label."
+}

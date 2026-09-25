@@ -1,0 +1,27 @@
+[
+  {
+    "feature_group": "log_amount / balance ratios / drain flags",
+    "decision": "keep",
+    "why": "Row-local, no identifiers, capture known PaySim drain-and-cash-out pattern."
+  },
+  {
+    "feature_group": "orig/dest prior counts, time-since-prev, dest_novelty",
+    "decision": "keep",
+    "why": "Causal groupby+shift; uses IDs only as keys then drops them."
+  },
+  {
+    "feature_group": "raw nameOrig/nameDest",
+    "decision": "drop",
+    "why": "High-cardinality identifiers; leakage and non-generalizable."
+  },
+  {
+    "feature_group": "near-zero-variance columns",
+    "decision": "flag in table; drop if near_zero_variance True",
+    "why": "Unstable for trees and linear models."
+  },
+  {
+    "feature_group": "correlation subsample (80k train rows)",
+    "decision": "documented approximation",
+    "why": "Full 4M x 30 correlation matrix is redundant for multicollinearity screening."
+  }
+]

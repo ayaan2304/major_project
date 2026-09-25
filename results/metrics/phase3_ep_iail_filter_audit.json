@@ -1,0 +1,25 @@
+{
+  "n_candidates": 12000,
+  "n_accepted": 9904,
+  "n_rejected": 2096,
+  "acceptance_rate": 0.8253333333333334,
+  "chosen_prototype": "mean",
+  "thresholds": {
+    "t_sim": 0.9528013052569473,
+    "t_plaus": 1.3146343015155317,
+    "sim_pct": 20,
+    "plaus_pct": 70
+  },
+  "val_pr_auc": 0.9999879642609348,
+  "thresholds_from": "val",
+  "synthetic_from": "train",
+  "prototype_source": "train_fraud",
+  "cap_meta": {
+    "keep_all_fraud": true,
+    "legit_cap": 200000,
+    "n_before": 6082007,
+    "n_after": 205781,
+    "applied": true,
+    "fraud_kept": 5781
+  }
+}

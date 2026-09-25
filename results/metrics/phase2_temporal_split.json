@@ -1,0 +1,33 @@
+{
+  "protocol": "chronological_by_step",
+  "fractions": {
+    "train_frac": 0.7,
+    "val_frac": 0.15,
+    "test_frac": 0.15
+  },
+  "n": {
+    "train": 6082007,
+    "val": 191147,
+    "test": 89466
+  },
+  "fraud": {
+    "train": 5781,
+    "val": 1180,
+    "test": 1252
+  },
+  "step_range": {
+    "train": {
+      "min": 1,
+      "max": 520
+    },
+    "val": {
+      "min": 521,
+      "max": 631
+    },
+    "test": {
+      "min": 632,
+      "max": 743
+    }
+  },
+  "leakage_audit_passed": true
+}

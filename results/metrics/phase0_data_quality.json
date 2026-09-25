@@ -1,0 +1,77 @@
+{
+  "n_rows": 6362620,
+  "n_columns": 11,
+  "columns": [
+    "step",
+    "type",
+    "amount",
+    "nameOrig",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "nameDest",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "isFraud",
+    "isFlaggedFraud"
+  ],
+  "dtypes": {
+    "step": "int32",
+    "type": "category",
+    "amount": "float64",
+    "nameOrig": "string",
+    "oldbalanceOrg": "float64",
+    "newbalanceOrig": "float64",
+    "nameDest": "string",
+    "oldbalanceDest": "float64",
+    "newbalanceDest": "float64",
+    "isFraud": "int8",
+    "isFlaggedFraud": "int8"
+  },
+  "missing_counts": {
+    "step": 0,
+    "type": 0,
+    "amount": 0,
+    "nameOrig": 0,
+    "oldbalanceOrg": 0,
+    "newbalanceOrig": 0,
+    "nameDest": 0,
+    "oldbalanceDest": 0,
+    "newbalanceDest": 0,
+    "isFraud": 0,
+    "isFlaggedFraud": 0
+  },
+  "duplicate_rows_within_chunks": 0,
+  "duplicate_note": "Exact duplicates are counted inside each chunk only. A full-file duplicate pass is optional and memory-heavy.",
+  "class_counts": {
+    "legitimate": 6354407,
+    "fraud": 8213
+  },
+  "fraud_rate": 0.001290820448180152,
+  "imbalance_ratio_legit_per_fraud": 773.7010836478753,
+  "type_distribution": {
+    "PAYMENT": 2151495,
+    "CASH_OUT": 2237500,
+    "CASH_IN": 1399284,
+    "TRANSFER": 532909,
+    "DEBIT": 41432
+  },
+  "isFlaggedFraud_counts": {
+    "0": 6362604,
+    "1": 16
+  },
+  "step_range": {
+    "min": 1,
+    "max": 743
+  },
+  "amount_stats": {
+    "min": 0.0,
+    "max": 92445516.64,
+    "mean": 179861.90354913066,
+    "std": 603858.1840093508
+  },
+  "n_negative_amounts": 0,
+  "n_negative_balance_cells": 0,
+  "n_origin_balance_inconsistencies": 5077691,
+  "assertions_passed": true,
+  "chunks_scanned": 26
+}

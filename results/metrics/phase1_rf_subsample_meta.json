@@ -1,0 +1,8 @@
+{
+  "keep_all_fraud": true,
+  "legit_cap": 200000,
+  "n_before": 5090096,
+  "n_after": 206570,
+  "applied": true,
+  "fraud_kept": 6570
+}

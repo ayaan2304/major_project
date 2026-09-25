@@ -1,0 +1,11 @@
+{
+  "cap_meta": {
+    "keep_all_fraud": true,
+    "legit_cap": 200000,
+    "n_before": 6082007,
+    "n_after": 205781,
+    "applied": true,
+    "fraud_kept": 5781
+  },
+  "method": "class_weight"
+}

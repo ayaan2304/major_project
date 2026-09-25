@@ -1,0 +1,4 @@
+scenario,C_FN,C_FP,threshold_val_tuned,val_cost,test_cost_tuned,test_cost_at_0.5,test_FN_tuned,test_FP_tuned,test_threshold,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_pr_auc,test_mcc,test_brier,test_log_loss,test_ece,test_TP,test_FP,test_TN,test_FN,test_TPR_recall,test_FPR,test_FNR,test_TNR
+conservative,10,1,0.51,0.0,0.0,0.0,0,0,0.51,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0700104897946473e-05,0.0004542594722756949,0.00044791639161787677,1252,0,88214,0,1.0,0.0,0.0,1.0
+balanced,25,1,0.51,0.0,0.0,0.0,0,0,0.51,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0700104897946473e-05,0.0004542594722756949,0.00044791639161787677,1252,0,88214,0,1.0,0.0,0.0,1.0
+aggressive,50,1,0.51,0.0,0.0,0.0,0,0,0.51,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0700104897946473e-05,0.0004542594722756949,0.00044791639161787677,1252,0,88214,0,1.0,0.0,0.0,1.0
